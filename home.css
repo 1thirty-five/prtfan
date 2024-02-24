@@ -1,15 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&display=swap");
 body {
   font-family: "IBM Plex Mono";
-  background-image: url('wp8369633.webp');
+  background-image: url('wp2528835-yellowstone-national-park-hd-wallpapers.jpg');
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+
 }
  .title {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    max-width: 550px;
     position: absolute;
-    top: 47%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #07374a;
+    color: #ffffff;
     width: 100%;
     text-align: center;
   }
@@ -21,5 +28,5 @@ body {
   
    .title p {
    
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
