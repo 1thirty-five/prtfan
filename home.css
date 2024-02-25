@@ -128,13 +128,20 @@ body {
     width: 100%;
     height: 40vh;
     display: flex;
-    align-items: center;
     gap: 100px;
 }
 .infome3 h1 {
+    padding-top: 10vh;
     color: #fdf500;
     padding-left: 5vh;
+    align-items: center;
 }   
+.infome3 ul{
+    padding-left: -450px;
+}
+.infome3 li {
+       margin-top: 30px;
+}
 
 .infome4 {
     width: 100%;
