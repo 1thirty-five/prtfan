@@ -1,24 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&display=swap");
 body {
   font-family: "IBM Plex Mono";
-  background-image: url('wp2528835-yellowstone-national-park-hd-wallpapers.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #24292e ;
   
 
 }
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+  color: #fdf500;
+
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+  .menu-items {
+    display: flex;
+  }
+  
+  .menu-items li {
+    list-style: none;
+    padding: 0.5rem;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color: #f0f0e6;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+  }
+  
+  .menu-items a:hover {
+    border-bottom: 2px solid #f0f0e6;
+  }
+  
+  .navbar .logo {
+    order: 1;
+    color: #f0f0e6;
+    font-size: 1rem;
+  }
+
+/*title txt*/
  .title {
-    background-color: rgba(0, 0, 0, 0.7);
+    
     border-radius: 20px;
     max-width: 550px;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
+    color: #fdf500;
     width: 100%;
     text-align: center;
+    animation-name: example;
+  animation-duration: 4s;
   }
   
    .title h1 {
@@ -29,4 +74,10 @@ body {
    .title p {
    
     font-size: 2rem;
+  }
+  @keyframes example {
+    0%   { color: rgba(0,0,0,0);}
+  
+    100% { color: rgbq(253, 245, 0,1);}
+
   }
