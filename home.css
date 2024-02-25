@@ -5,6 +5,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #24292e ;
+
+}
+.home{
   
 
 }
@@ -14,6 +17,7 @@ body {
   width: 100%;
   z-index: 500;
   color: #fdf500;
+  
 
 }
 
@@ -23,7 +27,9 @@ body {
   align-items: center;
   height: 64px;
 }
-
+.navbarbrand{
+  padding-left: 10px;
+}
 
 
   .menu-items {
@@ -49,11 +55,7 @@ body {
     border-bottom: 2px solid #f0f0e6;
   }
   
-  .navbar .logo {
-    order: 1;
-    color: #f0f0e6;
-    font-size: 1rem;
-  }
+  
 
 /*title txt*/
  .title {
@@ -61,7 +63,7 @@ body {
     border-radius: 20px;
     max-width: 550px;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fdf500;
