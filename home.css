@@ -24,8 +24,13 @@ body {
   height: 64px;
 }
 
+
+
   .menu-items {
     display: flex;
+    list-style-type: none;
+    margin: 10%;
+    padding: 20px;
   }
   
   .menu-items li {
