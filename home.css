@@ -1,65 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&display=swap");
+
 body {
-  font-family: "IBM Plex Mono";
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #24292e ;
+    font-family: "IBM Plex Mono";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #24292e;
 
 }
-.home{
-  
 
-}
+.home {}
 
 .navbar {
-  position: fixed;
-  width: 100%;
-  z-index: 500;
-  color: #fdf500;
-  
+    position: fixed;
+    z-index: 500;
+    color: black;
+    background-color: #fdf500;
+    width: 100vw;
 
 }
 
 .navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    width: 100vw;
+
 }
-.navbarbrand{
-  padding-left: 10px;
+
+.navbarbrand {
+    padding-left: 20px;
 }
 
 
-  .menu-items {
+.menu-items {
     display: flex;
     list-style-type: none;
     margin: 10%;
-    padding: 20px;
-  }
-  
-  .menu-items li {
+    padding: 10%;
+}
+
+.menu-items li {
     list-style: none;
     padding: 0.5rem;
-  }
-  
-  .menu-items a {
+    font-weight: 400;
+}
+
+.menu-items a {
     text-decoration: none;
-    color: #f0f0e6;
+    color: black;
     font-size: 1.2rem;
     padding: 0.3rem;
-  }
-  
-  .menu-items a:hover {
-    border-bottom: 2px solid #f0f0e6;
-  }
-  
-  
+}
+
+.menu-items a:hover {
+    border-bottom: 2px solid black;
+}
+
+
 
 /*title txt*/
- .title {
-    
+.title {
+
     border-radius: 20px;
     max-width: 550px;
     position: absolute;
@@ -70,21 +73,73 @@ body {
     width: 100%;
     text-align: center;
     animation-name: example;
-  animation-duration: 4s;
-  }
-  
-   .title h1 {
+    animation-duration: 4s;
+}
+
+.title h1 {
     font-size: 2.2rem;
     text-align: center;
-  }
-  
-   .title p {
-   
-    font-size: 2rem;
-  }
-  @keyframes example {
-    0%   { color: rgba(0,0,0,0);}
-  
-    100% { color: rgbq(253, 245, 0,1);}
+}
 
-  }
+.title p {
+
+    font-size: 2rem;
+}
+
+@keyframes example {
+    0% {
+        color: rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        color: rgbq(253, 245, 0, 1);
+    }
+
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.infome {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infome2 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.infome2 img {
+    padding-top: 10;
+    width: 35vh;
+    justify-content: center;
+}
+
+.infome3 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.infome3 h1 {
+    color: #fdf500;
+    padding-left: 5vh;
+}   
+
+.infome4 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
