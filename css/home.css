@@ -6,6 +6,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #24292e;
+    overflow-x: hidden;
 
 }
 
@@ -15,7 +16,7 @@ body {
     position: fixed;
     z-index: 500;
     color: black;
-    background-color: #fdf500;
+    background-color: #efd99a;
     width: 100vw;
 
 }
@@ -69,7 +70,7 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fdf500;
+    color: #efd99a;
     width: 100%;
     text-align: center;
     animation-name: curie;
@@ -127,8 +128,8 @@ body {
 .infome2 hr {
     height: 1px;
     width: 73vw;
-    background-color: #fdf500;
-    border-color: #fdf500;
+    background-color: #efd99a;
+    border-color: #efd99a;
 }
 
 .infome3 {
@@ -141,7 +142,7 @@ body {
 }
 .infome3 h1 {
     padding-top: 10vh;
-    color: #fdf500;
+    color: #efd99a;
     padding-left: 5vh;
 }   
 .infome3 ul{
@@ -155,8 +156,8 @@ body {
 .infome3 hr {
     height: 1px;
     width: 73vw;
-    background-color: #fdf500;
-    border-color: #fdf500;
+    background-color: #efd99a;
+    border-color: #efd99a;
 }
 
 .infome4 {
@@ -171,7 +172,7 @@ body {
 }
 .infome4 h1 {
     padding-top: 10vh;
-    color: #fdf500;
+    color: #efd99a;
     padding-left: 25vh;
     
 }   
@@ -184,7 +185,7 @@ body {
 .infome4 li {
        margin-top: 30px;
        display: inline-block;
-       border-right:  2px solid #fdf500;
+       border-right:  2px solid #efd99a;
        padding: 0 2rem;
     }
 
@@ -204,7 +205,7 @@ body {
     justify-content: center;
 }
 .cursor2 {
-        background: #fdf500;
+        background: #efd99a;
     
         width: 30px;
         height: 2px;
@@ -241,7 +242,7 @@ body {
 
 .infome5 h1 {
     padding-top: 10vh;
-    color: #fdf500;
+    color: #efd99a;
     padding-left: 5vh;
     align-items: center;
 }   
@@ -255,7 +256,7 @@ body {
        margin-top: 30px;
       
        display: inline-block;
-       border-right:  2px solid #fdf500;
+       border-right:  2px solid #efd99a;
        padding: 0 2rem;
 }
 .infome5 img{
@@ -276,8 +277,8 @@ body {
 .infome3 hr {
     height: 1px;
     width: 73vw;
-    background-color: #fdf500;
-    border-color: #fdf500;
+    background-color: #efd99a;
+    border-color: #efd99a;
 }
 
 .infome6 {
@@ -291,7 +292,7 @@ body {
 
 .infome6 h1 {
     padding-top: 10vh;
-    color: #fdf500;
+    color: #efd99a;
     padding-left: 5vh;
     align-items: center;
 }   
@@ -305,7 +306,7 @@ body {
        margin-top: 30px;
       
        display: inline-block;
-       border-right:  2px solid #fdf500;
+       border-right:  2px solid #efd99a;
        padding: 0 2rem;
        justify-content: center;
 }
@@ -323,4 +324,65 @@ body {
     transform: scale(1);
     transition-duration: 0.5s;
 
+}
+.container2 {
+   
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+
+}
+.projects {
+    padding-left: 13vw;
+    padding-top: 13vw;
+    color: #efd99a;
+    
+}
+
+.projects a {
+    color: #d2c13d;
+}
+
+
+.Boomboxica {
+    padding-top: 13vw;
+    color: #efd99a;
+    padding-left: 130px;
+    text-align: center;
+
+}
+.Boomboxica a {
+    color: #d2c13d;
+
+}
+.Boomboxica img {
+    width: 10vw;
+    border-radius: 20px 20px;
+    margin: 100px;
+}
+.Boomboxica h2 :hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+ 
+}
+.Radioit {
+    padding-top: 13vw;
+    color: #efd99a;
+    padding-left: 130px;
+    text-align: center;
+
+}
+.Radioit a {
+    color: #d2c13d;
+
+}
+.Radioit img {
+    width: 10vw;
+    border-radius: 20px 20px;
+    margin: 100px;
+}
+.Radioit h2 :hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+ 
 }
