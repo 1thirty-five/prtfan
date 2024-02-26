@@ -115,7 +115,7 @@ body {
     width: 100%;
     height: 10vh;
     display: flex;
-    justify-content: center;
+   padding-left: 16vw;
 
 }
 
@@ -124,15 +124,19 @@ body {
     width: 35vh;
     justify-content: center;
 }
+.infome2 hr {
+    height: 1px;
+    width: 73vw;
+    background-color: #fdf500;
+    border-color: #fdf500;
+}
 
 .infome3 {
     width: 100%;
     height: 40vh;
     display: flex;
-    gap: 100px;
     align-items: center;
-    justify-content: left;
-    padding-left: 7vw;
+    padding-left: 15vw;
 
 }
 .infome3 h1 {
@@ -146,6 +150,13 @@ body {
 }
 .infome3 li {
        margin-top: 30px;
+}
+
+.infome3 hr {
+    height: 1px;
+    width: 73vw;
+    background-color: #fdf500;
+    border-color: #fdf500;
 }
 
 .infome4 {
@@ -224,9 +235,7 @@ body {
     width: 100%;
     height: 40vh;
     display: flex;
-    gap: 100px;
-    justify-content: left;
-    padding-left: 20 vw;
+    padding-left: 13vw;
   
 }
 
@@ -264,16 +273,21 @@ body {
     transition-duration: 0.5s;
 
 }
+.infome3 hr {
+    height: 1px;
+    width: 73vw;
+    background-color: #fdf500;
+    border-color: #fdf500;
+}
 
 .infome6 {
     width: 100%;
     height: 40vh;
     display: flex;
-    gap: 100px;
-    justify-content: left;
-    padding-left: 20 vw;
+   padding-left: 13vw;  
   
 }
+
 
 .infome6 h1 {
     padding-top: 10vh;
@@ -293,6 +307,7 @@ body {
        display: inline-block;
        border-right:  2px solid #fdf500;
        padding: 0 2rem;
+       justify-content: center;
 }
 .infome6 img{
     width: 5vh;
