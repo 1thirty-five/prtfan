@@ -131,7 +131,8 @@ body {
     display: flex;
     gap: 100px;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 7vw;
 
 }
 .infome3 h1 {
@@ -224,8 +225,11 @@ body {
     height: 40vh;
     display: flex;
     gap: 100px;
+    justify-content: left;
+    padding-left: 20 vw;
   
 }
+
 .infome5 h1 {
     padding-top: 10vh;
     color: #fdf500;
@@ -234,7 +238,74 @@ body {
 }   
 .infome5 ul{
     padding-left: -450px;
+    list-style: none;
+    margin-top: 30px;
+      
 }
 .infome5 li {
        margin-top: 30px;
+      
+       display: inline-block;
+       border-right:  2px solid #fdf500;
+       padding: 0 2rem;
+}
+.infome5 img{
+    width: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+.infome5 li :hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    
+}
+.infome5 li :not(:hover){
+    transform: scale(1);
+    transition-duration: 0.5s;
+
+}
+
+.infome6 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    gap: 100px;
+    justify-content: left;
+    padding-left: 20 vw;
+  
+}
+
+.infome6 h1 {
+    padding-top: 10vh;
+    color: #fdf500;
+    padding-left: 5vh;
+    align-items: center;
+}   
+.infome6 ul{
+    padding-left: -450px;
+    list-style: none;
+    margin-top: 30px;
+      
+}
+.infome6 li {
+       margin-top: 30px;
+      
+       display: inline-block;
+       border-right:  2px solid #fdf500;
+       padding: 0 2rem;
+}
+.infome6 img{
+    width: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+.infome6 li :hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    
+}
+.infome6 li :not(:hover){
+    transform: scale(1);
+    transition-duration: 0.5s;
+
 }
