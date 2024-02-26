@@ -356,7 +356,7 @@ body {
 
 }
 .Boomboxica img {
-    width: 10vw;
+    width: 15vw;
     border-radius: 20px 20px;
     margin: 100px;
 }
@@ -385,4 +385,25 @@ body {
     transform: scale(1.5);
     transition-duration: 0.5s;
  
+}
+.rule2 hr {
+    width: 90vw;
+    height: 2px;
+    color: #efd99a;
+    background-color: #efd99a;
+}
+
+.socials{
+    text-align: center;
+    color: #efd99a;
+
+}
+.socials ul {
+    list-style: none;
+}
+.socials li {
+    display: inline-block;
+}
+.socials img {
+    width: 3vw;
 }
