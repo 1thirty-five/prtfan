@@ -72,7 +72,7 @@ body {
     color: #fdf500;
     width: 100%;
     text-align: center;
-    animation-name: example;
+    animation-name: curie;
     animation-duration: 4s;
 }
 
@@ -86,7 +86,7 @@ body {
     font-size: 2rem;
 }
 
-@keyframes example {
+@keyframes curie {
     0% {
         color: rgba(0, 0, 0, 0);
     }
@@ -99,6 +99,7 @@ body {
 
 .container1 {
     width: 100%;
+    justify-content: center;
     height: 100vh;
 }
 
@@ -129,39 +130,95 @@ body {
     height: 40vh;
     display: flex;
     gap: 100px;
+    align-items: center;
+    justify-content: center;
+
 }
 .infome3 h1 {
     padding-top: 10vh;
     color: #fdf500;
     padding-left: 5vh;
-    align-items: center;
 }   
 .infome3 ul{
     padding-left: -450px;
+    justify-content: center;
 }
 .infome3 li {
        margin-top: 30px;
 }
 
 .infome4 {
+
     width: 100%;
     height: 40vh;
     display: flex;
     gap: 100px;
+    align-items: center;
+    justify-content: center;
   
 }
 .infome4 h1 {
     padding-top: 10vh;
     color: #fdf500;
-    padding-left: 5vh;
-    align-items: center;
+    padding-left: 25vh;
+    
 }   
 .infome4 ul{
-    padding-left: -450px;
+   
+    list-style: none;
+    
+   
 }
 .infome4 li {
        margin-top: 30px;
+       display: inline-block;
+       border-right:  2px solid #fdf500;
+       padding: 0 2rem;
+    }
+
+.infome4 li :hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    
 }
+.infome4 li :not(:hover){
+    transform: scale(1);
+    transition-duration: 0.5s;
+
+}
+.infome4 img{
+    width: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+.cursor2 {
+        background: #fdf500;
+    
+        width: 30px;
+        height: 2px;
+        
+        justify-content: right;
+
+
+      }
+#cursor2{
+     
+    animation: blink 1s linear infinite;
+
+}
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+  }
+
+.divider1{
+    padding-top: 20rem;
+    width: 45   vw;
+    justify-content: center;
+}
+
+
+
 .infome5 {
     width: 100%;
     height: 40vh;
